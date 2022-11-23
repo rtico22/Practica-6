@@ -1,0 +1,28 @@
+h1{
+    color:orange;
+    font-weight:Bold;
+    text-align: center;
+}
+h4{
+    color:black;
+    font-weight: Bold;
+    text-align: center;
+
+}
+h5{
+    font-weight: lighter;
+}
+.form{
+    
+    text-align: center;
+}
+
+#Nom{
+    width: 200px;
+}
+#Cog{
+    width: 200px;
+}
+#Edat{
+    width: 300px;
+}
