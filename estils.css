@@ -1,28 +1,28 @@
-h1{
+h1{ /*Estil per la capçalera*/
     color:orange;
     font-weight:Bold;
     text-align: center;
 }
-h4{
+h4{ /*Estil per els h4*/
     color:black;
     font-weight: Bold;
     text-align: center;
 
 }
-h5{
+h5{/*Estil per els h5, perque no surti en negreta*/
     font-weight: lighter;
 }
-.form{
+.form{ /*El .form està dins el div i el fem servir per centrar tot el formulari*/
     
     text-align: center;
 }
 
-#Nom{
+#Nom{ /*Canviem la longitud del recuadre per escriure */
     width: 200px;
 }
-#Cog{
+#Cog{/*Canviem la longitud del recuadre per escriure */
     width: 200px;
 }
-#Edat{
+#Edat{/*Canviem la longitud del recuadre per escriure */
     width: 300px;
 }

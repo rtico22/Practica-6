@@ -3,26 +3,26 @@
 <head>
 <title>Formulari</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="estils.css">
+<link rel="stylesheet" href="estils.css"> <!--connexió amb els estils-->
 <body>
     <h1>El meu primer formulari</h1>
     <h4>Les teves dades personals:</h4>
-    <div class="form">
-    <form action="resultat.html">
-        <label id="Nom" for="Nom">Nom: </label>
-        <input id="Nom" type="text">
+    <div class="form"> <!--l'etiqueta div, feta servir per donar estil (i posicionament) al text dins l'etiqueta-->
+    <form action="resultat.html">  <!--Creem el formulari amb l'etiqueta form-->
+        <label id="Nom" for="Nom">Nom: </label> <!--El label serveix per fer un text + un recuadre per escriure-->
+        <input id="Nom" type="text"> <!--Posem el imput perque accepti valors de qualsevol text-->
         <label id="Cog" for="Cog">Cognoms: </label>
         <input id="Cog" type="text">
         <br><br>
         <label id="Edat" for="Edat">Edat: </label>
-        <input id="Edat" type="number">
+        <input id="Edat" type="number"> <!--Posem el imput amb type number perque només accepti valors numèrics-->
         <br>
 
         <h4>Marca els llenguatges de programació que més t'agraden:</h4>
 
         <br>
 
-        <input type="checkbox" id="HTML" name="HTML" value="HTML">
+        <input type="checkbox" id="HTML" name="HTML" value="HTML"> <!--Crees una checkbox on pots seleccionar més d'una casella i desseleccionarla-->
         <label for="HTML">HTML</label><br>
         <input type="checkbox" id="CSS" name="CSS" value="CSS">
         <label for="CSS">CSS</label><br>
@@ -32,7 +32,7 @@
 
         <h4>Selecciona el cicle formatiu que vols cursar:</h4>
         <h5>Seleccioneu el cicle: </h5>
-        <input type="radio" id="html" name="fav_language" value="HTML">
+        <input type="radio" id="html" name="fav_language" value="HTML">  <!--posem l'imput amb el type radio-->
         <label for="html">ASIX</label> <br>
         <input type="radio" id="css" name="fav_language" value="CSS">
         <label for="css">DAM</label> <br>
@@ -40,16 +40,16 @@
         <label for="javascript">DAW</label>
         <br><br>
         <label name="Curs" id="Curs">Selecciona el curs: </label>
-        <select name="Curs" id="Curs"><option value=""></option>
+        <select name="Curs" id="Curs"><option value=""></option> <!--El select serveix perquè surti el desplegable on els seleccionables seran les etiquetes option-->
         <option value="Primer">Primer</option>
         <option value="Segon">Segon</option>
         </select>
         <br>
         <br>
-        <label for="w3review">Observacions:</label></p>
-  <textarea id="w3review" name="w3review" rows="10" cols="50"></textarea>
+        <label for="areaT">Observacions:</label></p> <!-- Per últim per fer un recuadre gran farem servir l'etiqueta textarea (rows-alçaca, cols-amplada)-->
+  <textarea id="areaT" name="areaT" rows="10" cols="50"></textarea>
   <br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit"> <!--input amb type sumbit per enviar/confirmar el formulari-->
     </form> 
 
     </div>
